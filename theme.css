@@ -12,6 +12,8 @@
     /* Theme stuff */
     --bg-overlay-border: rgba(255, 255, 255, 0.08);
     --user-border-top: #35353f;
+    --background-primary-trans6: rgba(28, 29, 34, 0.85); 
+    --border3: rgba(255, 255, 255, 0.05)
 }
 
 /* Removed due to some problems */
@@ -212,4 +214,35 @@
 
 .button_d4bf9b {
     border-radius: 1000px;
+}
+
+/* Title blur */
+
+.content__01e65 {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.title_d4ba1a  {
+    border-top-left-radius: 10px;
+    backdrop-filter: blur(35px);
+    background-color: var(--background-primary-trans6) !important;
+    border-bottom: var(--border3);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.searchBar__621ec {
+    box-shadow: none;
+    border-bottom: var(--border3);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    height: 47px;
+}
+
+.barBase__8839d {
+    top: 47px;
 }
