@@ -1,0 +1,215 @@
+/* Tabs V2 colors */
+
+.theme-dark {
+    --background-primary: #1C1D22;
+    --background-floating: var(--background-secondary);
+    --background-secondary: #2d2d35;
+    --background-secondary-btn: rgba(23, 23, 27, 0.7);
+    --background-tertiary: #141318;
+    --bg-overlay-selected: rgba(255, 255, 255, 0.04);
+    --channeltextarea-background: #26262e;
+
+    /* Theme stuff */
+    --bg-overlay-border: rgba(255, 255, 255, 0.08);
+    --user-border-top: #35353f;
+}
+
+/* Removed due to some problems */
+
+[aria-label="Send a gift"] {
+    display: none
+}
+
+/* Tabs V2 button style */
+.button__581d0 {
+    border-radius: 100px;
+}
+
+/* Tabs V2 sidebar */
+
+.sidebar_e031be {
+    border-radius: 25px 8px 8px 8px !important;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+.sidebar_e031be, .bannerImage_c73a57, .bannerImg_fe5c1b {
+    width: 270px !important;
+}
+
+.container__7e23c, .privateChannels__9b518, .scroller__89969  {
+    background: var(--background-primary) !important;
+}
+
+.chat__52833 {
+    border-radius: 8px 0px 0px 8px;
+    margin-bottom: 8px;
+}
+
+/* Tabs V2 Server Header */ 
+
+.headerContent__6fcc7  {
+    background: rgba(0, 0, 0, 0.65) !important;
+    padding: 8px;
+    padding-left: 12px;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 1000px;
+    filter: none !important;
+    width: 180px !important;
+    backdrop-filter: blur(5px);
+}
+
+.header__77c95 {
+    padding: 9px 9px
+}
+
+.name_e8e549 {
+    margin-right: 1px;
+}
+
+.primaryInfo__8d587 {
+    justify-content: left;
+}
+
+/* Tabs V2 Channels */
+
+.link_ddbb36 {
+    border-radius: 12px !important;
+    height: 34px;
+    justify-content: center;
+}
+
+.modeSelected__473f1 {
+    border-radius: 13px !important;
+    border-width: 1px;
+    border-color: var(--bg-overlay-border);
+    border-style: solid;
+    padding: 0px;
+}
+
+/* Tabs V2 User */
+
+.container__7e23c {
+    min-height: 100% !important;
+}
+
+.panels__58331, .container_debb33 {
+    background: none !important;
+}
+
+.panels__58331 {
+    position: absolute;
+    top: calc(100% - 61px);
+    width: 270px;
+    height: 53px;
+    background: linear-gradient(180deg, rgba(28,29,34,0) 0%, rgba(28,29,34,0.9) 30%, rgba(28,29,34,1) 100%) !important;
+    border-radius: 10px;
+}
+
+.nameTag__77ab2 {
+    display: none;
+}
+
+.avatarWrapper__500a6, [class="button_ae40a4 enabled__214db button__581d0 lookBlank_a5b4ca colorBrand__27d57 grow__4c8a4 button_ae40a4"] {
+    min-width: 40px;
+    height: 40px !important;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+    padding: 0;
+    border-radius: 100% !important;
+    background-color: var(--background-secondary-btn) !important;
+    backdrop-filter: blur(10px);
+    margin-right: 0px !important;
+}
+
+.container_debb33 {
+    display: flex;
+    justify-content: end;
+}
+
+.panel_bd8c76 {
+    display: none
+}
+
+/* Mobile Text Area */
+
+.scrollableContainer_ff917f  {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.textArea_a86690 {
+    background-color: var(--channeltextarea-background);
+    border-radius: 22px;
+    padding-left: 10px;
+    margin-right: 6px;
+}
+
+.placeholder_dec8c7 {
+    padding-left: 10px;
+}
+
+.attachWrapper_d01704, .buttonContainer_ff1010 {
+    background-color: var(--channeltextarea-background);
+    border-radius: 22px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    margin-right: 6px;
+}
+
+.attachButton__56f98, .button__493d9 {
+    width: 44px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.inner__9fd0b {
+    padding: 0px;
+}
+
+.buttons__7ecff {
+    padding-right: 2px;
+}
+
+.attachedBars_c1606a, .replyBar_ed6afc {
+    border-radius: 22px;
+    background: none;
+}
+
+.replyBar_ed6afc {
+    background-color: var(--channeltextarea-background);
+    margin-bottom: 6px;
+}
+
+.members__573eb, .container_f79ab4 {
+    background: none;
+    width: 270px;
+}
+
+.member_aa4760, .channel__0aef5 {
+    min-width: 254px;
+    background: none;
+}
+
+/* Uncapitalize Categories */
+
+.container__43554 {
+    text-transform: none;
+    font-size: 13px;
+}
+
+/* Extra */
+
+.buttonsInner_a9dfff  {
+    background-color: var(--background-secondary);
+    border-radius: 1000px !important;
+    padding: 4px;
+    height: calc(32px + 4px + 4px);
+}
+
+.button_d4bf9b {
+    border-radius: 1000px;
+}
