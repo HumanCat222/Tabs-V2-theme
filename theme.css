@@ -119,7 +119,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 5px;
+    margin: 6px;
     padding: 0;
     border-radius: 100% !important;
     background-color: var(--background-secondary-btn) !important;
@@ -189,6 +189,7 @@
 .members__573eb, .container_f79ab4 {
     background: none;
     width: 270px;
+    margin-top: 28px;
 }
 
 .member_aa4760, .channel__0aef5 {
@@ -243,6 +244,6 @@
     height: 47px;
 }
 
-.barBase__8839d {
+.newMessagesBar__8b272  {
     top: 47px;
 }
