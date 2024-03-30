@@ -133,7 +133,15 @@
 }
 
 .panel_bd8c76 {
-    display: none
+    display: none;
+}
+
+
+.container_e1958d {
+    border-bottom: none;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: -118px;
 }
 
 /* Mobile Text Area */
